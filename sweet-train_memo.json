@@ -1,0 +1,76 @@
+{
+    "metadata": {
+        "method": "memo",
+        "start_time": "2025-07-28 19:16:08",
+        "device": "cuda",
+        "num_tasks": 1,
+        "seed": 42,
+        "end_time": "2025-07-28 19:20:28",
+        "total_runtime_s": 258.7219705581665
+    },
+    "task_metrics": {
+        "1": {
+            "name": "Sweet",
+            "final_f1": 0.8443322952755208,
+            "final_accuracy": 0.8447488584474886,
+            "best_accuracy": 0.8470319634703196,
+            "final_auc_pr": 0.9048814721888856,
+            "final_auroc": 0.9011002776791865,
+            "confusion_matrix": [
+                [
+                    169,
+                    42
+                ],
+                [
+                    26,
+                    201
+                ]
+            ],
+            "class_balance": {
+                "0": 1053,
+                "1": 1133
+            },
+            "training_epochs": 10,
+            "task_size": 1748
+        }
+    },
+    "performance_metrics": {
+        "Q1_total_training_time_s": 258.7219705581665,
+        "Q2_total_parameters": 44737617,
+        "Q3_total_epochs": 10,
+        "Q4_model_size_mb": 170.6763687133789,
+        "Q5_throughput_samples_per_s": 67.87299136974416,
+        "Q6_flops_millions": 252796.177408,
+        "Q7_avg_inference_time_ms": 0.42785542196334775
+    },
+    "task_accuracies": {
+        "1": [
+            0.7968036529680366,
+            0.8059360730593608,
+            0.8059360730593608,
+            0.8127853881278538,
+            0.8242009132420092,
+            0.8401826484018264,
+            0.8470319634703196,
+            0.8401826484018264,
+            0.8424657534246576,
+            0.8447488584474886
+        ]
+    },
+    "best_accuracies": {
+        "1": 0.8470319634703196
+    },
+    "final_metrics": {
+        "ainc": 0.8447488584474886,
+        "average_best_accuracy": 0.8470319634703196,
+        "forgetting": {
+            "1": {
+                "task_name": "Sweet",
+                "best_accuracy": 0.8470319634703196,
+                "final_accuracy": 0.8447488584474886,
+                "forgetting": 0.0022831050228310223
+            }
+        },
+        "forward_transfer": {}
+    }
+}
